@@ -39,3 +39,31 @@ export const addProducts = (newTodo) => {
     payload: newTodo,
   };
 };
+
+export const productShow = (product) => {
+  return {
+    type: types.productShow,
+    payload: product.id,
+  };
+};
+
+export const productAdd = (product) => {
+  return {
+    type: types.productAddToCart,
+    payload: product.id,
+  };
+};
+
+export const productRemoveCart = (product) => {
+  return {
+    type: types.productOneRemoveCart,
+    payload: product.id,
+  };
+};
+
+export const productRemoveAllCart = (product) => {
+  return {
+    type: types.productRemoveCart,
+    payload: product.id,
+  };
+};
