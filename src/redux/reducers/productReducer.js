@@ -1,4 +1,4 @@
-import { types } from "../types/types";
+import { productTypes } from "../types/productTypes";
 
 const initialProductState = {
   products: [
@@ -12,12 +12,12 @@ const initialProductState = {
 const productReducer = (state = initialProductState, action) => {
   const { type, payload } = action;
   switch (type) {
-    case types.productShow:
+    case productTypes.productShow:
       return {
         ...state,
         activeProduct: state.products.find((product) => product.id === payload),
       };
-    case types.productAddToCart: {
+    case productTypes.productAddToCart: {
       const cartContainProduct = state.cart.find(
         (product) => product.id === payload
       );
@@ -41,7 +41,7 @@ const productReducer = (state = initialProductState, action) => {
             ],
           };
     }
-    case types.productOneRemoveCart: {
+    case productTypes.productOneRemoveCart: {
       const productDelete = state.cart.find(
         (product) => product.id === payload
       );
@@ -60,7 +60,7 @@ const productReducer = (state = initialProductState, action) => {
             cart: state.cart.filter((product) => product.id !== payload),
           };
     }
-    case types.productRemoveCart:
+    case productTypes.productRemoveCart:
       return {
         ...state,
         cart: state.cart.filter((product) => product.id !== payload),

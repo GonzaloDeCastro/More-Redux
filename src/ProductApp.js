@@ -5,7 +5,7 @@ import {
   productRemoveAllCart,
   productRemoveCart,
   productShow,
-} from "./redux/actions";
+} from "./redux/actions/productActions";
 
 const ProductApp = () => {
   const productState = useSelector((state) => state.productReducer);
