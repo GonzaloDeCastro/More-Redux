@@ -1,13 +1,12 @@
-import { createStore, applyMiddleware, compose } from "redux";
-import thunk from "redux-thunk";
-import allReducers from "../reducers";
+import { configureStore } from "@reduxjs/toolkit";
+import todoSlice from "../reducers/todoSlice";
+import counterSlice from "../reducers/counterSlice";
+import productSlice from "../reducers/productSlice";
 
-const composeEnhancers =
-  (typeof window !== "undefined" &&
-    window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) ||
-  compose;
-
-export const store = createStore(
-  allReducers,
-  composeEnhancers(applyMiddleware(thunk))
-);
+export const store = configureStore({
+  reducer: {
+    todoReducers: todoSlice,
+    counterReducer: counterSlice,
+    productReducer: productSlice,
+  },
+});

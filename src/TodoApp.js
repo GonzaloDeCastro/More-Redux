@@ -1,16 +1,17 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { addProducts, deleteProducts, updateProducts } from "./redux/actions";
+import { addTodo, deleteTodo, updateTodo } from "./redux/reducers/todoSlice";
 
 const TodoApp = () => {
-  const todo = useSelector((state) => state.todoReducer);
   const dispatch = useDispatch();
+  const todo = useSelector((state) => state.todoReducers);
+  console.log(todo);
   const [text, setText] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const newTodo = { id: Date.now(), title: text };
-    dispatch(addProducts(newTodo));
+    dispatch(addTodo(newTodo));
   };
 
   return (
@@ -20,11 +21,11 @@ const TodoApp = () => {
         {todo.map((todo) => (
           <li key={todo.id}>
             {todo.title}
-            <button onClick={() => dispatch(deleteProducts(todo.id))}>
+            <button onClick={() => dispatch(deleteTodo(todo.id))}>
               Delete
             </button>
             <button
-              onClick={() => dispatch(updateProducts({ ...todo, title: text }))}
+              onClick={() => dispatch(updateTodo({ ...todo, title: text }))}
             >
               Update
             </button>
