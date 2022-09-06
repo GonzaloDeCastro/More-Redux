@@ -10,7 +10,7 @@ const initialState = {
 };
 
 export const productSlice = createSlice({
-  name: "todoReducers",
+  name: "productReducers",
   initialState,
   reducers: {
     productShow: (state, action) => {
