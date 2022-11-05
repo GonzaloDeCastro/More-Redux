@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/More-Redux/static/css/main.e6c13ad2.css",
+    "main.js": "/More-Redux/static/js/main.1654e5d4.js",
+    "index.html": "/More-Redux/index.html",
+    "main.e6c13ad2.css.map": "/More-Redux/static/css/main.e6c13ad2.css.map",
+    "main.1654e5d4.js.map": "/More-Redux/static/js/main.1654e5d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.1654e5d4.js"
+  ]
+}
