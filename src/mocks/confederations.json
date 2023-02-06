@@ -1,0 +1,180 @@
+[
+  {
+    "id": 1,
+    "confederation": "AFC",
+    "avatar": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Asian_Football_Confederation_%28logo%29.svg/1200px-Asian_Football_Confederation_%28logo%29.svg.png",
+    "federations": [
+      {
+        "id": 23,
+        "federation": "A",
+        "avatar": "https://robohash.org/estvelad.png?size=50x50&set=set1",
+        "clubes": []
+      },
+      {
+        "id": 33,
+        "federation": "B",
+        "avatar": "https://robohash.org/quiconsequaturet.png?size=50x50&set=set1",
+        "clubes": []
+      },
+      {
+        "id": 45,
+        "federation": "C",
+        "avatar": "https://robohash.org/quamestvelit.png?size=50x50&set=set1",
+        "clubes": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "confederation": "CAF",
+    "avatar": "https://upload.wikimedia.org/wikipedia/en/thumb/7/72/Confederation_of_African_Football_logo.svg/1200px-Confederation_of_African_Football_logo.svg.png",
+    "federations": [
+      {
+        "id": 32,
+        "federation": "D",
+        "avatar": "https://robohash.org/quiconsequaturet.png?size=50x50&set=set1",
+        "clubes": []
+      },
+      {
+        "id": 43,
+        "federation": "E",
+        "avatar": "https://robohash.org/quamestvelit.png?size=50x50&set=set1",
+        "clubes": []
+      },
+      {
+        "id": 54,
+        "federation": "F",
+        "avatar": "https://robohash.org/quamestvelit.png?size=50x50&set=set1",
+        "clubes": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "confederation": "CONCACAF",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Concacaf_logo.svg/1200px-Concacaf_logo.svg.png",
+    "federations": [
+      {
+        "id": 12,
+        "federation": "G",
+        "avatar": "https://robohash.org/doloresabsuscipit.png?size=50x50&set=set1",
+        "clubes": []
+      },
+      {
+        "id": 22,
+        "federation": "H",
+        "avatar": "https://robohash.org/estvelad.png?size=50x50&set=set1",
+        "clubes": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "confederation": "CONMEBOL",
+    "avatar": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/CONMEBOL_logo_%282017%29.svg/1200px-CONMEBOL_logo_%282017%29.svg.png",
+    "federations": [
+      {
+        "id": 11,
+        "federation": "Asociación Fútbol Argentino",
+        "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Argentine_Football_Association_logo.svg/1638px-Argentine_Football_Association_logo.svg.png",
+        "clubes": [
+          {
+            "id": 66,
+            "club": "Club Atlético Independiente",
+            "price": "$5000",
+            "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Escudo_del_Club_Atl%C3%A9tico_Independiente.svg/474px-Escudo_del_Club_Atl%C3%A9tico_Independiente.svg.png",
+            "players": []
+          },
+          {
+            "id": 77,
+            "club": "Club Atlético River Plate",
+            "price": "$6000",
+            "avatar": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Logo_River_Plate.png",
+            "players": []
+          },
+          {
+            "id": 88,
+            "club": "Club Atlético Newell's Old Boys",
+            "price": "$3000",
+            "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Escudo_del_Club_Alt%C3%A9tico_Newell%27s_Old_Boys.svg/612px-Escudo_del_Club_Alt%C3%A9tico_Newell%27s_Old_Boys.svg.png",
+            "players": []
+          },
+          {
+            "id": 74,
+            "club": "Racing Club",
+            "price": "$4500",
+            "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Escudo_de_Racing_Club_%282014%29.svg/1200px-Escudo_de_Racing_Club_%282014%29.svg.png",
+            "players": []
+          },
+          {
+            "id": 73,
+            "club": "Club Atlético San Lorenzo de Almagro",
+            "price": "$3500",
+            "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Escudo_del_C.A._San_Lorenzo_de_Almagro.svg/1200px-Escudo_del_C.A._San_Lorenzo_de_Almagro.svg.png",
+            "players": []
+          },
+          {
+            "id": 72,
+            "club": "Club Atlético Union de Santa Fe",
+            "price": "$5500",
+            "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Escudo_club_Atl%C3%A9tico_Uni%C3%B3n_de_santa_fe.svg/1200px-Escudo_club_Atl%C3%A9tico_Uni%C3%B3n_de_santa_fe.svg.png",
+            "players": []
+          },
+          {
+            "id": 71,
+            "club": "Club Atlético Rosario Central",
+            "price": "$6500",
+            "avatar": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Rosario_Central_logo.png",
+            "players": []
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "federation": "Confederación Brasileña de Fútbol",
+        "avatar": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Logo_Brasil.png",
+        "clubes": [
+          {
+            "id": 99,
+            "club": "GREMIO",
+            "price": "$2500",
+            "avatar": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Gremio_logo.gif",
+            "players": []
+          },
+          {
+            "id": 98,
+            "club": "FLAMENGO",
+            "price": "$2800",
+            "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/1200px-Flamengo_braz_logo.svg.png",
+            "players": []
+          },
+          {
+            "id": 97,
+            "club": "SANTOS",
+            "price": "$4700",
+            "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToJ_ZUMJFWtR9ZeAgGyFzxjQ4Nx_3JbzALI_wrHEClGsNEw9HMXmdrQN0I3SWFTf8NhsE&usqp=CAU",
+            "players": []
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "federation": "Federación de Fútbol de Chile",
+        "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Logo_Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile.png/1200px-Logo_Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile.png",
+        "clubes": []
+      },
+      {
+        "id": 44,
+        "federation": "Federación Colombiana de Futbol",
+        "avatar": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Escudo_de_la_Federaci%C3%B3n_Colombiana_de_F%C3%BAtbol.png",
+        "clubes": []
+      },
+      {
+        "id": 55,
+        "federation": "Federación Boliviana de Fútbol",
+        "avatar": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Escudo_federaci%C3%B3n_Boliviana_de_f%C3%BAtbol.png",
+        "clubes": []
+      }
+    ]
+  }
+]
